@@ -285,6 +285,7 @@ const fdoc = {
 if (teks == '404') {
 let menuu = `┌────「 *${namebot}* 」───⬣
 ├─────────────╰─────│───
+───」R╰───────────」⬡
 「├|│├───────「Ryu│├────
 ├|│⬡ ╰─Aktif selama ${uptime}
 ├|│⬡ ╰─${Object.keys(global.db.data.users).length} Pengguna
@@ -292,7 +293,8 @@ let menuu = `┌────「 *${namebot}* 」───⬣
 ├|│⬡ ╰─${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
 ├|│⬡ ╰─${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
 ├|╰──────╰──────⬣─│
-├─────────────────
+├─────────────────」
+─────」X²╰────⬡──
 ┌────「 *${name}* 」───⬣
 ├|│⬡ ├─Api : ${tag}
 ├|│⬡ ├─Limit : ${limit}
